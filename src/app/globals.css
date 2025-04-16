@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 33% 99%;
+    --foreground: 210 20% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 20% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 20% 20%;
+
+    --primary: 210 25% 20%;
+    --primary-foreground: 210 10% 98%;
+
+    --secondary: 0 60% 62%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 30% 95%;
+    --muted-foreground: 210 5% 65%;
+
+    --accent: 165 40% 48%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 15% 90%;
+    --input: 210 15% 90%;
+    --ring: 210 15% 40%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 210 25% 12%;
+    --foreground: 210 10% 98%;
+
+    --card: 210 25% 14%;
+    --card-foreground: 210 10% 98%;
+
+    --popover: 210 25% 14%;
+    --popover-foreground: 210 10% 98%;
+
+    --primary: 210 10% 98%;
+    --primary-foreground: 210 25% 12%;
+
+    --secondary: 0 60% 62%;
+    --secondary-foreground: 210 10% 98%;
+
+    --muted: 210 25% 25%;
+    --muted-foreground: 210 10% 60%;
+
+    --accent: 165 40% 48%;
+    --accent-foreground: 210 10% 98%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 210 10% 98%;
+
+    --border: 210 25% 25%;
+    --input: 210 25% 25%;
+    --ring: 210 10% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom styles */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.container {
+  @apply px-4 md:px-6 max-w-[1140px] mx-auto;
+}
+
+.header-wrapper {
+  @apply sticky top-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100 shadow-sm;
+}
+
+.btn-primary {
+  @apply bg-docus-secondary hover:bg-docus-secondary/90 text-white rounded-md px-4 py-2 font-medium transition-all duration-200;
+}
+
+.btn-secondary {
+  @apply bg-docus-light hover:bg-gray-100 text-docus-primary rounded-md px-4 py-2 font-medium transition-all duration-200;
+}
+
+.btn-outline {
+  @apply border border-docus-primary text-docus-primary hover:bg-docus-primary/5 rounded-md px-4 py-2 font-medium transition-all duration-200;
+}
+
+.section {
+  @apply py-16 md:py-24;
+}
+
+/* Animation classes */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.slide-up {
+  animation: slideUp 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
