@@ -85,7 +85,7 @@ export const Benefits = () => {
             size="lg"
             asChild
           >
-            <Link href="https://healthcare-sand-seven.vercel.app/">Try Elivia For Free</Link>
+            <Link href="https://elivia-docure.vercel.app/">Try Elivia For Free</Link>
           </Button>
         </div>
       </div>
