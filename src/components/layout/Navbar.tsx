@@ -60,7 +60,7 @@ export const Navbar = () => {
             AI Nutritionist
           </Link>
           <Link
-            href="https://clinic-coral.vercel.app/"
+            href="https://clinic-docure.vercel.app/"
             className="text-docus-primary hover:text-docus-primary/80 transition-colors"
           >
             Online Doctors
