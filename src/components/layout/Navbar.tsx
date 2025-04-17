@@ -54,7 +54,7 @@ export const Navbar = () => {
             Dashboard
           </Link>
           <Link
-            href="https://nutrition-tawny.vercel.app/"
+            href="https://nutritionmm-docure.vercel.app/"
             className="text-docus-primary hover:text-docus-primary/80 transition-colors"
           >
             AI Nutritionist
