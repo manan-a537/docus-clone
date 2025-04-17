@@ -51,7 +51,7 @@ export const Hero = () => {
                 size="lg"
                 asChild
               >
-                <Link href="https://huggingface.co/spaces/manana537/ebb?logs=container">Try Docure For Free</Link>
+                <Link href="https://huggingface.co/spaces/manana537/elivia">Try Docure For Free</Link>
               </Button>
             </div>
 
