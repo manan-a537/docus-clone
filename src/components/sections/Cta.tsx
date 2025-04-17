@@ -32,7 +32,7 @@ export const Cta = () => {
             size="lg"
             asChild
           >
-            <Link href="https://huggingface.co/spaces/manana537/ebb?logs=container">Try Elivia For Free</Link>
+            <Link href="https://elivia-docure.vercel.app/">Try Elivia For Free</Link>
           </Button>
         </motion.div>
 
