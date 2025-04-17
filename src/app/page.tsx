@@ -13,7 +13,6 @@ import { CookieConsent } from "@/components/layout/CookieConsent";
 export default function Home() {
   return (
     <main>
-      <Navbar />
       <Hero />
       <Recognition />
       <Services />

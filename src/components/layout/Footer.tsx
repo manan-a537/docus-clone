@@ -12,7 +12,7 @@ export const Footer = () => {
             <Link href="/">
               <Image
                 src="/docus-dark-logo.svg"
-                alt="Docus"
+                alt="Docure.ai"
                 width={120}
                 height={40}
                 className="h-10 w-auto"
@@ -202,9 +202,9 @@ export const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-gray-200">
-          <p className="text-docus-primary/70 text-sm">© 2025 Docus, Inc.</p>
+          <p className="text-docus-primary/70 text-sm">© 2025 Docure.ai, Inc.</p>
           <p className="text-docus-primary/70 text-sm mt-1">
-            2810 N Church Street, Wilmington, DE 19802 United States
+            Sohna, Gurugram, HR 122103
           </p>
         </div>
       </div>

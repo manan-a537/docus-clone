@@ -17,40 +17,40 @@ type FaqItem = {
 
 const faqItems: FaqItem[] = [
   {
-    question: "What is Docus?",
-    answer: "Docus is an AI-powered health platform providing personalized health insights, lab test interpretations, and access to qualified medical professionals for second opinions. Our platform is designed to help you make informed health decisions."
+    question: "What is Docure.ai?",
+    answer: "Docure.ai is an AI-powered health platform providing personalized health insights, lab test interpretations, and access to qualified medical professionals for second opinions. Our platform is designed to help you make informed health decisions."
   },
   {
-    question: "How can I get started with Docus and manage my health?",
+    question: "How can I get started with Docure.ai and manage my health?",
     answer: "Getting started is easy! Just sign up for a free account, complete your health profile, and start using our AI Doctor for personalized insights or upload lab results for interpretation. You can also connect with doctors for second opinions."
   },
   {
-    question: "What kind of health issues can Docus help with?",
-    answer: "Docus can assist with a wide range of health concerns including preventive care, understanding lab results, symptom evaluation, chronic condition management, nutrition advice, and mental health support. Our platform is designed to complement traditional healthcare."
+    question: "What kind of health issues can Docure.ai help with?",
+    answer: "Docure.ai can assist with a wide range of health concerns including preventive care, understanding lab results, symptom evaluation, chronic condition management, nutrition advice, and mental health support. Our platform is designed to complement traditional healthcare."
   },
   {
-    question: "How reliable are the health insights provided by Docus?",
+    question: "How reliable are the health insights provided by Docure.ai?",
     answer: "Our AI health insights are based on the latest medical research and are designed to be highly accurate. However, we always recommend validating critical health insights with qualified healthcare professionals, which is why we offer access to our network of doctors."
   },
   {
-    question: "What is Docus AI Doctor?",
-    answer: "Docus AI Doctor is our advanced AI-powered health assistant that provides personalized health insights, answers health questions, helps interpret symptoms, and offers preventive care recommendations based on your health profile and concerns."
+    question: "What is Docure.ai AI Doctor?",
+    answer: "Docure.ai AI Doctor is our advanced AI-powered health assistant that provides personalized health insights, answers health questions, helps interpret symptoms, and offers preventive care recommendations based on your health profile and concerns."
   },
   {
-    question: "How do I get a second opinion through Docus?",
+    question: "How do I get a second opinion through Docure.ai?",
     answer: "After receiving AI insights, you can request a second opinion from our network of qualified doctors. Simply click the 'Get Second Opinion' button, select a doctor based on specialization, and schedule a consultation through our secure platform."
   },
   {
-    question: "Can Docus replace my doctor?",
-    answer: "No, Docus is designed to complement, not replace, your primary healthcare provider. We provide additional insights, information, and second opinions to help you make informed decisions about your health, but recommend maintaining a relationship with your regular doctor."
+    question: "Can Docure.ai replace my doctor?",
+    answer: "No, Docure.ai is designed to complement, not replace, your primary healthcare provider. We provide additional insights, information, and second opinions to help you make informed decisions about your health, but recommend maintaining a relationship with your regular doctor."
   },
   {
-    question: "How do I ensure my health data is safe with Docus?",
+    question: "How do I ensure my health data is safe with Docure.ai?",
     answer: "We take data security very seriously. All health data is encrypted end-to-end and stored in compliance with HIPAA and GDPR standards. We never share your personal information without your explicit consent, and you can delete your data at any time."
   },
   {
-    question: "Why should I choose Docus as my Personal Health Assistant?",
-    answer: "Docus offers a unique combination of AI-powered insights and human medical expertise, providing personalized health information, lab interpretations, symptom evaluation, and access to qualified doctors all in one platform, making it a comprehensive solution for proactive health management."
+    question: "Why should I choose Docure.ai as my Personal Health Assistant?",
+    answer: "Docure.ai offers a unique combination of AI-powered insights and human medical expertise, providing personalized health information, lab interpretations, symptom evaluation, and access to qualified doctors all in one platform, making it a comprehensive solution for proactive health management."
   }
 ];
 
